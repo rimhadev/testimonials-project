@@ -17,17 +17,22 @@
   grid-template-rows:auto auto auto auto;
   gap:30px;
 }
+.box-1 .pattern {
+  height: 113px;
+  width: 110px;
+}
 /* Daniel */
 .box-1 {
   background-color: hsl(263, 55%, 52%);
   grid-column: 1 / span 2;
   border-radius: 10px;
   padding: 33px;
+  position: relative;
 }
 
-/* .daniel {
+.daniel {
   position: relative;
-} */
+}
 
 .profile img {
   border: 2px solid hsl(210, 46%, 95%);
